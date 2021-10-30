@@ -13,8 +13,12 @@ print(ma_valeur)
 ma_valeur = tempsEnSeconde(mon_lendemain)
 print(ma_valeur)
 
-
 def secondeEnTemps(seconde):
-    """Renvoie le temps (jour, heure, minute, seconde) qui correspond au nombre de seconde passé en argument"""    
+    """Renvoie le temps (;jour, heure, minute, seconde) qui correspond au nombre de seconde passé en argument"""   
+    jours=86400//secondeEnTemps
+    heures=
+    minutes=
+    secondes= 
+    return(jours,heures,minutes,secondes) 
 temps = secondeEnTemps(100000)
 print(temps[0],"jours",temps[1],"heures",temps[2],"minutes",temps[3],"secondes")
