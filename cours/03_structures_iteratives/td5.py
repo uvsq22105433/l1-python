@@ -1,8 +1,7 @@
 import tkinter as tk
 
 CANVAS_WIDTH, CANVAS_HEIGHT = 600, 600
-root = tk.Tk()
-
+root= tk.Tk()
 canvas = tk.Canvas(root, width = CANVAS_WIDTH, height = CANVAS_HEIGHT)
 
 # Début de votre code
